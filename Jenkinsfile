@@ -29,5 +29,6 @@ node {
         if (currentBuild.result == null || currentBuild.result == 'SUCCESS') {
             junit 'target/surefire-reports/**/*.xml'  
         }
-    }
+     }
+  }
 }
